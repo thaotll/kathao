@@ -1,0 +1,12 @@
+###
+POST http://localhost:8080/stellenangebote
+Content-Type: application/json
+
+{
+  "jobTitle": "Kabel",
+  "company": "ggg",
+  "location": "nice",
+  "description": "mmm",
+  "deadline": "hhhh",
+  "startDate": "ejjj"
+}
