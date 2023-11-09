@@ -4,10 +4,10 @@ POST http://localhost:8080/stellenangebote
 Content-Type: application/json
 
 {
-  "jobTitle": "Kabel",
-  "company": "ggg",
-  "location": "nice",
-  "description": "mmm",
-  "deadline": "hhhh",
-  "startDate": "ejjj"
+  "jobTitle": "Hardware Planning",
+  "company": "SpectraSynergy Solutions",
+  "location": "Augsburg, Deutschland",
+  "description": "Suchen Hardware Planning Specialist für [Unternehmensname]. Analyse, Planung, Bewertung neuer Technologien, Kapazitätsüberwachung, Teamzusammenarbeit, Risikomanagement",
+  "deadline": "25.12.2023",
+  "startDate": "10.01.2023"
 }
