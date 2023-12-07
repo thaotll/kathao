@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:5173")
 public class StellenangebotController {
-
     @Autowired
     StellenangebotService service;
 
@@ -32,4 +32,3 @@ public class StellenangebotController {
         return service.getAll();
     }
 }
-
