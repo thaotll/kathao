@@ -2,6 +2,8 @@ package htwberlin.webtech;
 
 import jakarta.persistence.*;
 
+import java.util.Objects;
+
 @Entity
 @Table
 public class Stellenangebot {
@@ -86,16 +88,13 @@ public class Stellenangebot {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Stellenangebot)) return false;
-
-        Stellenangebot stellenangebot = (Stellenangebot) o;
-
-        if (getId() != null ? !getId().equals(stellenangebot.getId()) : stellenangebot.getId() != null) return false;
-        if (getJobTitle() != null ? !getJobTitle().equals(stellenangebot.getJobTitle()) : stellenangebot.getJobTitle() != null)
-            return false;
-        if (getCompany() != null ? !getCompany().equals(stellenangebot.getCompany()) : stellenangebot.getCompany() != null)
-            return false;
-        return getLocation() != null ? getLocation().equals(stellenangebot.getLocation()) : stellenangebot.getLocation() == null;
+        Stellenangebot that = (Stellenangebot) o;
+        return Objects.equals(getId(), that.getId()) &&
+                Objects.equals(getJobTitle(), that.getJobTitle()) &&
+                Objects.equals(getCompany(), that.getCompany()) &&
+                Objects.equals(getLocation(), that.getLocation());
     }
+
 
     @Override
     public int hashCode() {
