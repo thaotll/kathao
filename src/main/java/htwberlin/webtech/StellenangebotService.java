@@ -29,4 +29,8 @@ public class StellenangebotService {
         }
         return stellenangebote;
     }
+
+    public void delete(Long id) {
+        repo.deleteById(id);
+    }
 }
