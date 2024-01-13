@@ -3,7 +3,9 @@ package htwberlin.webtech;
 import jakarta.persistence.*;
 
 import java.util.Objects;
-
+/**
+ * Eine Entitätsklasse, die ein Stellenangebot repräsentiert.
+ */
 @Entity
 @Table
 public class Stellenangebot {
@@ -27,7 +29,9 @@ public class Stellenangebot {
         this.deadline = deadline;
         this.startDate = startDate;
     }
-
+    /**
+     * Getter und Setter für alle Attribute
+     */
     public Long getId() {
         return id;
     }
