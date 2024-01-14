@@ -4,10 +4,10 @@ POST http://localhost:8080/stellenangebote
 Content-Type: application/json
 
 {
-  "jobTitle": "Hardware Planning",
-  "company": "SpectraSynergy Solutions",
-  "location": "Augsburg, Deutschland",
-  "description": "Suchen Hardware Planning Specialist für [Unternehmensname]. Analyse, Planung, Bewertung neuer Technologien, Kapazitätsüberwachung, Teamzusammenarbeit, Risikomanagement",
-  "deadline": "25.12.2023",
-  "startDate": "10.01.2023"
+  "jobTitle": "Marketing Manager (m/w/d)",
+  "company": "Marketing Boost GmbH",
+  "location": "München, Deutschland",
+  "description": "Wir suchen einen Marketing Manager mit nachgewiesener Erfahrung im Aufbau von Marken und der Entwicklung erfolgreicher Marketingstrategien. Kommunikationsgeschick und Kreativität sind gefragt!",
+  "deadline": "01.06.2023",
+  "startDate": "20.04.2023"
 }
